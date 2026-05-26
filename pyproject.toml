@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "storyboard-pdf-merger"
+version = "0.1.0"
+description = "Merge AI-generated image frames into a printable storyboard PDF. Works with Midjourney, DALL-E, STORYLINER, or any image source."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [{name = "STORYLINER team", email = "hello@storyliner.online"}]
+keywords = ["storyboard", "film", "pdf", "image-to-pdf", "ai-tools", "pre-production"]
+dependencies = ["PyMuPDF>=1.20", "Pillow>=9.0"]
+
+[project.urls]
+Homepage = "https://github.com/mcqx4/storyboard-pdf-merger"
+Repository = "https://github.com/mcqx4/storyboard-pdf-merger"
+"AI storyboard generator by same team" = "https://www.storyliner.online"
+
+[project.scripts]
+storyboard-pdf-merger = "storyboard_pdf_merger.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["storyboard_pdf_merger*"]
