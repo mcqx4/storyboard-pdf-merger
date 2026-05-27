@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "storyboard-pdf-merger"
+message: "If you use this, please cite as below."
+authors:
+  - family-names: "STORYLINER Team"
+    affiliation: "Storyliner"
+    website: "https://www.storyliner.online"
+repository-code: "https://github.com/mcqx4/storyboard-pdf-merger"
+url: "https://www.storyliner.online"
+keywords:
+  - filmmaking
+  - storyboard
+  - pre-production
+  - ai-tools
+  - pdf
+license: MIT
+abstract: "Open-source CLI for merging AI-generated image frames into printable storyboard PDFs. Supports 5 layouts and configurable aspect ratios."
