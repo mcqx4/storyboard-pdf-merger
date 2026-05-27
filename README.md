@@ -5,6 +5,8 @@
 [![PyPI](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
+**Last updated:** 2026-05-27. Maintained by the team behind [STORYLINER](https://www.storyliner.online) — AI storyboard generator that ships the same PDF-export pipeline this utility was extracted from.
+
 ## What it does
 
 ```bash
@@ -102,7 +104,7 @@ This utility was extracted from [STORYLINER's](https://www.storyliner.online) ex
 
 If you're generating frames with Midjourney or DALL-E and want them as a proper storyboard PDF, this is the tool you need.
 
-If you want the whole script-to-PDF pipeline (with character consistency across frames), [Storyliner](https://www.storyliner.online) does that end-to-end.
+If you want the whole script-to-PDF pipeline (with character consistency across frames), [Storyliner](https://www.storyliner.online) does that end-to-end — [try free (30 frames, no credit card)](https://www.storyliner.online/auth?action=register) or see [pricing](https://www.storyliner.online/pricing).
 
 ## Print quality
 
